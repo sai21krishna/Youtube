@@ -1,0 +1,53 @@
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 30px;
+  background: #e3f2fd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.content-inner {
+  max-width: 600px;
+  flex: 1;
+}
+
+.content-inner h1 {
+  font-size: 42px;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.content-inner p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.content-inner button {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.content-inner button:hover {
+  background-color: #023e8a;
+}
+
+.content-image {
+  flex: 1;
+  text-align: center;
+}
+
+.content-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
